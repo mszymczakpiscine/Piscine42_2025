@@ -28,3 +28,16 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 	dest[j] = '\0';
 	return (dest);
 }
+/*
+#include <stdio.h>
+
+int main()
+{
+	char a[20] = "1234";
+	char b[20] = "6789";
+
+	char *t = ft_strncat(a, b, 5);
+	printf("%s\n", t);
+	return (0);
+}
+*/
