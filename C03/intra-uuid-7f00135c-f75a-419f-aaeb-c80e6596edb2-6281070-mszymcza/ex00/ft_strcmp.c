@@ -25,3 +25,14 @@ int	ft_strcmp(char *s1, char *s2)
 		return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 	return (0);
 }
+/*
+#include <stdio.h>
+
+int main()
+{
+	printf("%d", ft_strcmp("Hello", "Hello1"));
+	printf("\n%d", ft_strcmp("Hello", "He"));
+	printf("\n%d", ft_strcmp("He", "Hello"));
+	printf("\n%d", ft_strcmp("Hello", "Hello"));
+}
+*/
