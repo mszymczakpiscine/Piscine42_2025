@@ -25,3 +25,14 @@ int	ft_str_is_uppercase(char *str)
 	}
 	return (1);
 }
+/*
+#include <stdio.h>
+
+int    main(void)
+{
+    int isupper;
+    char a[] = "AAAAAAAARGH";
+    isupper = ft_str_is_uppercase(a);
+    printf("%d\n", isupper);
+}
+*/
