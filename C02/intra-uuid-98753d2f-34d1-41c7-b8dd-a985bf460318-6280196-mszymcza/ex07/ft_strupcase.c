@@ -27,3 +27,14 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
+/*
+#include <stdio.h>
+
+int main()
+{
+	char a[] = "fhjdhfjhfjhfkjdsf";
+	
+	printf("%s\n", ft_strupcase(a));
+	return (0);
+} 
+*/
