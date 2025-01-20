@@ -33,7 +33,7 @@ int main(void)
 	char src[] = "Filou";
 	char dest[15];
 
-	printf("%s\n", ft_strncpy(dest, src, 15 ));
-	printf("%s\n", strncpy(dest, src, 15 ));
+	printf("%s\n", ft_strncpy(dest, src, 15));
+	printf("%s\n", strncpy(dest, src, 15));
 }
 */
