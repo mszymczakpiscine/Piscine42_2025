@@ -32,7 +32,7 @@ int main(void)
 	char dest[] = "";
 
 	printf("%lu\n", strlen(dest));	
-	ft_strcpy(dest, "Super mega test!");
+	ft_strcpy(dest, "Excellent test!");
 	printf("%s", dest);	
 }
 */
