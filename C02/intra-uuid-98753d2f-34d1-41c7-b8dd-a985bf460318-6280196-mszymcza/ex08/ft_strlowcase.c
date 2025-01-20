@@ -27,3 +27,13 @@ char	*ft_strlowcase(char *str)
 	}
 	return (str);
 }
+/*
+#include<stdio.h>
+
+int main()
+{
+    char a[] = "SALUT LES LOULOUS";
+    printf("%s\n", ft_strlowcase(a));
+    return (0);
+}
+*/
